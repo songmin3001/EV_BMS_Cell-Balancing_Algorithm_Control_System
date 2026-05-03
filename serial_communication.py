@@ -7,9 +7,9 @@ from datetime import datetime
 # ── 설정 ──────────────────────────────────────────────
 PORT        = "COM3"          # Windows: COM3 / Linux: /dev/ttyUSB0
 BAUD        = 9600
-V_HIGH      = 3.2
+V_HIGH      = 4.2
 V_LOW       = 3.1
-CAPACITY_AH = 2.5
+CAPACITY_AH = 3.2
 LOG_INTERVAL = 1800           # 30분 (초)
 MAX_TIME     = 7200           # 종료 조건: 2시간 (초)
 LOG_FILE     = "bms_log.csv"
