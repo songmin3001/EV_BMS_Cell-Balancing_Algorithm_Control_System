@@ -9,7 +9,7 @@
 #define SD_CS_PIN       10
 
 // ── 상수 ─────────────────────────────────────────────
-const float V_HIGH       = 3.2;   // 방전 시작 전압
+const float V_HIGH       = 4.2;   // 방전 시작 전압
 const float V_LOW        = 3.1;   // 방전 종료 전압
 const float CAPACITY_AH  = 2.5;   // 셀 용량 (Ah)
 const float V_REF        = 5.0;   // ADC 기준 전압
