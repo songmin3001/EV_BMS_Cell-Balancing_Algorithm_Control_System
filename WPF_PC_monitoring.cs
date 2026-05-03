@@ -10,7 +10,7 @@ namespace BMS_Monitor
         // ── 설정 ────────────────────────────────────────
         const string PORT        = "COM3";
         const int    BAUD        = 9600;
-        const double V_HIGH      = 3.2;
+        const double V_HIGH      = 4.2;
         const double V_LOW       = 3.1;
         const double CAPACITY_AH = 2.5;
         const double LOG_SEC     = 1800;   // 30분
