@@ -21,7 +21,7 @@ def initialize():
     with open(log_path, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["Timestamp", "Voltage(V)", "Current(A)", "Relay", "SoC(%)"])
-    print("=== BMS 초기화 완료 ===")
+    print("== BMS 초기화 완료 ==")
     return log_path
 
 # ── 전압/전류 읽기 (Arduino Serial 파싱) ──────────────
